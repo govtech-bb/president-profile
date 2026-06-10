@@ -166,6 +166,16 @@
         <h1 class="font-bold text-[3.5rem] leading-[1.15]">Lt. Col. The Most Honourable Jeffrey D. Bostic</h1>
         <p class="text-bb-mid-grey-00 mt-xs">President of Barbados</p>
 
+        <!-- Portrait (mobile only) — sits under the title; the desktop copy lives in the right column. -->
+        <!-- TODO: Replace this placeholder with the official presidential portrait (update both copies). -->
+        <div class="lg:hidden w-full max-w-[300px] aspect-square bg-bb-grey-00 border-2 border-bb-black-00 rounded-sm flex flex-col items-center justify-center text-center text-bb-mid-grey-00 p-s mt-m">
+          <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
+            <circle cx="12" cy="8" r="4" />
+            <path d="M4 20c0-4 3.5-6 8-6s8 2 8 6" />
+          </svg>
+          <p class="text-caption mt-xs">Official portrait to be provided</p>
+        </div>
+
         <h2 class="font-bold text-h3 mt-m">Biography</h2>
 
         <div class="mt-s space-y-s text-body">
@@ -198,9 +208,9 @@
       <!-- Right column: portrait, contact, departments -->
       <div class="lg:col-span-1 space-y-m">
 
-        <!-- Portrait placeholder -->
+        <!-- Portrait placeholder (desktop only) — mobile copy sits under the title in the left column. -->
         <!-- TODO: Replace this placeholder with the official presidential portrait once provided by the Office of the President. -->
-        <div class="w-full aspect-square bg-bb-grey-00 border-2 border-bb-black-00 rounded-sm flex flex-col items-center justify-center text-center text-bb-mid-grey-00 p-s">
+        <div class="hidden lg:flex w-full aspect-square bg-bb-grey-00 border-2 border-bb-black-00 rounded-sm flex-col items-center justify-center text-center text-bb-mid-grey-00 p-s">
           <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
             <circle cx="12" cy="8" r="4" />
             <path d="M4 20c0-4 3.5-6 8-6s8 2 8 6" />
